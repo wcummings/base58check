@@ -8,8 +8,8 @@ defmodule Base58Check.Mixfile do
      deps: deps,
      package: package,
      name: "Base58Check",
-     source_url: "https://github.com/gjaldon/base58check",
-     homepage_url: "https://github.com/gjaldon/base58check",
+     source_url: "https://github.com/wcummings/base58check",
+     homepage_url: "https://github.com/wcummings/base58check",
      description: """
      Elixir implementation of Base58Check encoding meant for Bitcoin
      """]
