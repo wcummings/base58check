@@ -25,4 +25,8 @@ defmodule Base58Check.Mixfile do
      links: %{github: "https://github.com/gjaldon/base58check"}]
   end
 
+  def deps do
+    []
+  end
+
 end
