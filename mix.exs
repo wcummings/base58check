@@ -25,7 +25,4 @@ defmodule Base58Check.Mixfile do
      links: %{github: "https://github.com/gjaldon/base58check"}]
   end
 
-  defp deps do
-    [{:erlsha2, github: "vinoski/erlsha2"}]
-  end
 end
