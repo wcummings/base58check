@@ -42,7 +42,6 @@ defmodule Base58Check do
   end
   def encode58check(prefix, data) do
     prefix = if is_integer(prefix), do: :binary.encode_unsigned(prefix), else: prefix
-    IO.inspect prefix
     data = if is_integer(data), do: :binary.encode_unsigned(data), else: data
     encode58check(prefix, data)
   end
